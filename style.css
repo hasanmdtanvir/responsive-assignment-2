@@ -267,7 +267,7 @@
    /* border: 2px solid green; */
 }
 .section-three-left h1:nth-child(2){
-    font-size: 50px;
+    font-size: 3.2rem;
 }
 .section-three-right{
     width: 50%;
@@ -283,9 +283,28 @@
     .section-three-left{
         margin-bottom: 50px;
     }
-   .inner-small-card{
-    display: none;
+    .section-three-right .section-three-card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+   .inner-left .inner-small-card{
+    display: block;
+    width: 100%;
+    /* padding: 10px 10px; */
+    /* border: 2px solid red; */
+    /* position: relative; */
+    /* top: 0; */
+    left: 0;
    }
+   .inner-left .inner-small-card{
+    /* display: none; */
+   }
+   .section-three-left h1:nth-child(2){
+    font-size: 2.3rem;
+   }
+   
   
 }
 .section-three-left h5{
